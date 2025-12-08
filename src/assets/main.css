@@ -1,35 +1,30 @@
 @import './base.css';
 
+/* Reset e fontes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFF8E1;
+  color: #333;
+  line-height: 1.6;
+}
+
 #app {
-  max-width: 1280px;
+  max-width: 500px;
   margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+  background-color: white;
+  min-height: 100vh;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
-}
-
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
-}
+/* Utilidades */
+.text-center { text-align: center; }
+.mb-2 { margin-bottom: 8px; }
+.mb-3 { margin-bottom: 16px; }
+.mt-3 { margin-top: 16px; }
