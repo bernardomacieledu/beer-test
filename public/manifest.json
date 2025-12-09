@@ -23,7 +23,7 @@
       "is192x192": false
     },
     {
-      "src": "https://craft-beer.vercel.app/icon-192x192.png",
+      "src": "https://craft-beer.vercel.app/pwa-192x192.png",
       "isSquare": false,
       "isPng": true,
       "isWebp": false,
@@ -34,7 +34,7 @@
       "is192x192": false
     },
     {
-      "src": "https://craft-beer.vercel.app/icon-144x144.png",
+      "src": "https://craft-beer.vercel.app/pwa-512x512.png",
       "isSquare": false,
       "isPng": true,
       "isWebp": false,
