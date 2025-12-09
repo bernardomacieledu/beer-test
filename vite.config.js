@@ -11,9 +11,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'apple-touch-icon.png', 'masked-icon.svg'],
       manifest: {
-        name: 'BEERCRAFT 2024',
-        short_name: 'BEERCRAFT',
-        description: 'PROJETO FINAL',
+        name: 'teste',
+        short_name: 'teste',
+        description: 'Conheça teste 123npm ion=',
         theme_color: '#ffffff',
         icons: [
           {
